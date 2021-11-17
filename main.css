@@ -333,6 +333,7 @@ footer {
   nav .logo {
     display: none;
   }
+
   .user-bar {
     display: none;
   }
@@ -491,6 +492,7 @@ footer {
   .main-title.about-me-page {
     margin: 25px 0;
   }
+
   .headline-description.about-me-page {
     margin-bottom: 50px;
     margin-top: 25px;
