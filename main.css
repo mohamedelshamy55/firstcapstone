@@ -1,0 +1,470 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+.hamb-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu-links {
+    height: 85%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding-top: 40px;
+    display: none;
+    flex-direction: column;
+    box-shadow: #ec5242 10px 10px 90px 40px;
+    margin: 0;
+}
+
+.menu-list {
+    margin: 20px 0;
+}
+
+.hamb-close-btn {
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+}
+
+.menu-list.close {
+    align-self: flex-end;
+    margin-top: 0;
+}
+
+.menu-link {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #ec5242;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header,
+.headline {
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline.about-me-page {
+    align-items: center;
+}
+
+.main-title::before {
+    content: '"Hello! Sharing World"';
+    text-transform: none;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'lato', sans-serif;
+}
+
+.main-title.about-me-page::before {
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #ec5242;
+    margin-left: 15px;
+}
+
+.main-title.about-me-page {
+    text-align: center;
+}
+
+.headline-description {
+    font-family: 'lato', sans-serif;
+    font-size: 19px;
+    padding: 10px;
+    border: 2px solid #fff;
+    align-self: center;
+    margin: 0 15px;
+    color: #272a31;
+}
+
+.headline-description.about-me-page {
+    text-align: center;
+    background-color: #fff;
+    color: #272a31;
+}
+
+.event-date {
+    margin-left: 15px;
+    color: #272a31;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-program-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+}
+
+.orange-line {
+    width: 10%;
+    border-color: #ec5242;
+    background-color: #ec5242;
+    margin: 0;
+}
+
+.program-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.lectures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.137);
+    margin: 5px 3px;
+    max-width: 350px;
+}
+
+.lectures-img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.lectures-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #fd513e;
+    margin: 0 10px;
+}
+
+.lectures-description {
+    margin: 10px 0;
+    font-family: 'lato', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(255, 248, 248);
+}
+
+.main-program-btn {
+    cursor: pointer;
+    width: fit-content;
+    height: 50px;
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+    margin: 5px 0 40px 0;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speakers-section-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #272a31;
+}
+
+.speaker-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0;
+}
+
+.speaker-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-img {
+    justify-self: flex-start;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+    margin: 0 15px;
+}
+
+.speaker-name {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #272a31;
+    margin: 0;
+}
+
+.speaker-about {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ec5242;
+    margin-bottom: 0;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.speaker-about::after {
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: #d3d3d3;
+    content: '';
+    margin: 5px 0;
+}
+
+.talk-about {
+    margin: 0;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #272a31;
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272a31;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partner-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+}
+
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.partner-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    text-decoration-line: none;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ec5242;
+    padding: 10px 10px;
+    background-color: #272a31;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px 10px;
+    line-height: 30px;
+}
+
+.copy-right {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media (max-width: 766px) {
+    nav .logo {
+        display: none;
+    }
+    .user-bar {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hamb-icon {
+        display: none;
+    }
+    .user-bar {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        background-color: #272a31;
+        height: 35px;
+    }
+    .user-bar-link {
+        text-decoration: none;
+        font-family: 'lato', sans-serif;
+        font-weight: normal;
+        font-size: 17px;
+        color: #fff;
+        padding: 0 20px;
+        cursor: pointer;
+    }
+    .user-bar-smedia {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        padding: 0 20px;
+    }
+    nav {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 95px;
+    }
+    .menu-list.close {
+        display: none;
+    }
+    .menu-links {
+        display: flex;
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .menu-link {
+        font-size: 13px;
+        color: #535353;
+        padding: 20px 15px;
+        margin: 0 15px;
+    }
+    .menu-link:hover {
+        color: #ec5242;
+    }
+    .menu-list.homepage {
+        display: none;
+    }
+    .main-title::before {
+        font-size: 35px;
+    }
+    .main-title {
+        font-size: 75px;
+        margin-left: 13%;
+    }
+    .headline-description {
+        font-size: 35px;
+        margin: 0 12%;
+    }
+    .event-date {
+        font-size: 40px;
+        margin-left: 12%;
+    }
+    .main-program-title,
+    .speakers-section-title,
+    .partner-title {
+        font-size: 26px;
+    }
+    .program-list {
+        flex-direction: row;
+        margin: 30px 1%;
+    }
+    .lectures {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+        max-width: 170px;
+    }
+    .lectures-title {
+        font-size: 18px;
+    }
+    .lectures-description {
+        font-size: 17px;
+        padding: 0 10px;
+    }
+    .main-program-btn {
+        margin-top: 40px;
+    }
+    .grid-container {
+        display: grid;
+        grid: repeat(2, 1fr)/ repeat(2, 1fr);
+        gap: 20px;
+    }
+    .speaker-img {
+        width: 150px;
+        height: 150px;
+    }
+    .speaker-name {
+        font-size: 20px;
+    }
+    .speaker-about {
+        font-size: 18px;
+    }
+    .talk-about {
+        font-size: 16px;
+    }
+    .partner-img {
+        width: 200px;
+        height: 200px;
+        margin: 0 30px;
+    }
+    .copy-right {
+        font-size: 18px;
+    }
+    .main-title.about-me-page {
+        margin: 25px 0;
+    }
+    .headline-description.about-me-page {
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+}
