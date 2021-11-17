@@ -1,14 +1,15 @@
-# Hellow Microverse
-> This is a first project with Microverse.
+# capstone project - Conference page
 
 ![screenshot](https://github.com/mohamedelshamy55/firstcapstone/blob/mohamedelshamy55-patch-1/screenshot1.png)
 ![screenshot](https://github.com/mohamedelshamy55/firstcapstone/blob/mohamedelshamy55-patch-1/screenshot2.png)
-
+### Deployment
+-https://mohamedelshamy55.github.io/firstcapstone/
 
 ## Built With
 - HTML
 - CSS
-
+- JavaScript
+- 
 ## Getting Started
 
 
@@ -19,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 - create a new folder
 - acccess the folder via command line
-- run this under the command line: git@github.com:mohamedelshamy55/hellow-microverse3.git
+- run this under the command line: https://mohamedelshamy55.github.io/firstcapstone/
 
 ### Prerequisites
 -Html
@@ -39,8 +40,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 -None
 
-### Deployment
--None
+
 
 👤 Author
 
