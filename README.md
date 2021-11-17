@@ -6,17 +6,15 @@
 
 ## Live Demo
 
-[View Live Demo](https://www.loom.com/share/f82a3faa72214009832d189c58b7423b)
+[View Live Demo](https://mohamedelshamy55.github.io/firstcapstone/)
 
 >Complete Project Screenshots
 
 ![screenshot](https://github.com/mohamedelshamy55/firstcapstone/blob/mohamedelshamy55-patch-1/screenshot1.png)
 ![screenshot](https://github.com/mohamedelshamy55/firstcapstone/blob/mohamedelshamy55-patch-1/screenshot2.png)
-### Deployment
-- https://mohamedelshamy55.github.io/firstcapstone/
 
 - Major languages - HTML
-- CSS  Preprocessor - Sass
+- CSS  Preprocessor - JavaScript
 - Frameworks - No Frameworks Used
 - Tools used - Git(version control), WebHint(linting tool), Stylelint(style linting), ESLint(Javascript linting)
 
