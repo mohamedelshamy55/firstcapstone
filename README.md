@@ -3,7 +3,7 @@
 ![screenshot](https://github.com/mohamedelshamy55/firstcapstone/blob/mohamedelshamy55-patch-1/screenshot1.png)
 ![screenshot](https://github.com/mohamedelshamy55/firstcapstone/blob/mohamedelshamy55-patch-1/screenshot2.png)
 ### Deployment
--https://mohamedelshamy55.github.io/firstcapstone/
+- https://mohamedelshamy55.github.io/firstcapstone/
 
 ## Built With
 - HTML
