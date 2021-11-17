@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 - create a new folder
 - acccess the folder via command line
-- run this under the command line: https://mohamedelshamy55.github.io/firstcapstone/
+- run this under the command line: https://github.com/mohamedelshamy55/firstcapstone/tree/mohamedelshamy55-patch-1
 
 ### Prerequisites
 -Html
