@@ -56,28 +56,28 @@ const speakerData = [{
 ];
 
 speakerData.forEach((Element, i) => {
-const gridContainer = document.querySelector('.grid-container');
-const speakerContainer = document.createElement('article');
-const imgSpeaker = document.createElement('img');
-const divSpeaker = document.createElement('div');
-const nameSpeaker = document.createElement('h4');
-const aboutSpeaker = document.createElement('p');
-const talkAboutSpeaker = document.createElement('p');
-const divStyle = document.createElement('div');
+  const gridContainer = document.querySelector('.grid-container');
+  const speakerContainer = document.createElement('article');
+  const imgSpeaker = document.createElement('img');
+  const divSpeaker = document.createElement('div');
+  const nameSpeaker = document.createElement('h4');
+  const aboutSpeaker = document.createElement('p');
+  const talkAboutSpeaker = document.createElement('p');
+  const divStyle = document.createElement('div');
 
-gridContainer.append(speakerContainer);
-speakerContainer.classList.add('speaker-container');
-speakerContainer.append(divStyle, imgSpeaker, divSpeaker);
-imgSpeaker.classList.add('speaker-img');
-divSpeaker.classList.add('speaker-info');
-divStyle.classList.add('for-style');
-divSpeaker.append(nameSpeaker, aboutSpeaker, talkAboutSpeaker);
-nameSpeaker.classList.add('speaker-name');
-aboutSpeaker.classList.add('speaker-about');
-talkAboutSpeaker.classList.add('talk-about');
+  gridContainer.append(speakerContainer);
+  speakerContainer.classList.add('speaker-container');
+  speakerContainer.append(divStyle, imgSpeaker, divSpeaker);
+  imgSpeaker.classList.add('speaker-img');
+  divSpeaker.classList.add('speaker-info');
+  divStyle.classList.add('for-style');
+  divSpeaker.append(nameSpeaker, aboutSpeaker, talkAboutSpeaker);
+  nameSpeaker.classList.add('speaker-name');
+  aboutSpeaker.classList.add('speaker-about');
+  talkAboutSpeaker.classList.add('talk-about');
 
-imgSpeaker.src = speakerData[i].img;
-nameSpeaker.textContent = speakerData[i].name;
-aboutSpeaker.textContent = speakerData[i].about;
-talkAboutSpeaker.textContent = speakerData[i].talk;
+  imgSpeaker.src = speakerData[i].img;
+  nameSpeaker.textContent = speakerData[i].name;
+  aboutSpeaker.textContent = speakerData[i].about;
+  talkAboutSpeaker.textContent = speakerData[i].talk;
 });
